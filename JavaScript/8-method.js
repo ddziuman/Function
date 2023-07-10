@@ -22,12 +22,12 @@ const obj1 = {
   }
 };
 
-console.log('obj1.fn1.name = ' + obj1.fn1.name);
-console.log('obj1.sum.name = ' + obj1.sum.name);
-console.log('obj1.inc.name = ' + obj1.inc.name);
-console.log('obj1.max.name = ' + obj1.max.name);
-console.log('obj1.min.name = ' + obj1.min.name);
-console.log('obj1.dec.name = ' + obj1.dec.name);
+console.log('obj1.fn1.name = ' + obj1.fn1.name); // inc
+console.log('obj1.sum.name = ' + obj1.sum.name); // sum
+console.log('obj1.inc.name = ' + obj1.inc.name); // inc
+console.log('obj1.max.name = ' + obj1.max.name); // max
+console.log('obj1.min.name = ' + obj1.min.name); // min
+console.log('obj1.dec.name = ' + obj1.dec.name); // dec
 
 console.log('obj1.fn1(5) = ' + obj1.fn1(5));
 console.log('obj1.sum(1, 3) = ' + obj1.sum(1, 3));

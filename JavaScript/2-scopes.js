@@ -1,5 +1,4 @@
 'use strict';
-
 const cities = ['Athens', 'Roma', 'London', 'Beijing', 'Kiev', 'Riga'];
 const f = (s) => s.length;
 

@@ -9,7 +9,6 @@ const sum = function(a, b) {
 };
 
 const max = (a, b) => (a > b ? a : b);
-
 const avg = (a, b) => {
   const s = sum(a, b);
   return s / 2;
